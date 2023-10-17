@@ -1,0 +1,1 @@
+This is a 'scrapbook' of sorts to document my personal journey through programming. The intent is to save my online code challenges in one place to push to Github. 
