@@ -15,3 +15,4 @@ class Solution(object):
             else:
                 return middle
         return left
+    
