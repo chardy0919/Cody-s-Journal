@@ -9,7 +9,7 @@ class Solution(object):
         :rtype: None Do not return anything, modify nums in-place instead.
         """
         # non_zero_elements = []
-        # count = 0
+        # count = 0 '
         # for num in nums:
         #     if num != 0:
         #         non_zero_elements.append(num)
@@ -27,6 +27,5 @@ class Solution(object):
         nums[:] = non_zero_elements 
         return nums
 cody = Solution()
-print(cody.moveZeroes([0,1,0,3,12]))
-print(cody.moveZeroes([0,0,1]))
+print(cody.moveZeroes([0,1,0,3,12])) #[1,3,12,0,0]
 
