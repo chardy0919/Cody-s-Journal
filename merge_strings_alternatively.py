@@ -27,4 +27,23 @@ print(cody.mergeAlternately('ab', 'pqrs'))
 # Beats 63.30%of users with Python
 # Memory 13.29MB
 # Beats 63.42%of users with Python
-        
+
+word1 = 'Alabama'
+word2 = 'Virginia'
+answer=''
+if len(word1) < len(word2):
+    small_word=word1
+    big_word=word2
+else:
+    small_word=word2
+    big_word=word1
+i = 0
+while i < len(small_word):
+    answer+=word1[i]
+    answer+=word2[i]
+    i+=1
+answer+=big_word[len(small_word):]
+
+
+print(answer)
+#This one beat 80% of users in python3.
